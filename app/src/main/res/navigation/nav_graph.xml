@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination= "@id/gameFragment">
+    app:startDestination="@id/gameFragment3">
 
 
     <fragment
-        android:id="@+id/pickPlayersFragment2"
-        android:name="ziemapp.johnzieman.coindrop.fragments.PickPlayersFragment"
-        android:label="fragment_pick_players"
-        tools:layout="@layout/fragment_pick_players" />
-    <fragment
-        android:id="@+id/gameFragment2"
+        android:id="@+id/gameFragment3"
         android:name="ziemapp.johnzieman.coindrop.fragments.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/pickPlayersFragment3"
+        android:name="ziemapp.johnzieman.coindrop.fragments.PickPlayersFragment"
+        android:label="fragment_pick_players"
+        tools:layout="@layout/fragment_pick_players" />
 </navigation>
