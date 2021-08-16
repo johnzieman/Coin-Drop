@@ -6,4 +6,7 @@
     <string name="players">Players</string>
     <string name="play_button">play</string>
     <string name="player_name">Player name</string>
+    <string name= "roll" >Roll</string>
+    <string name= "or" >OR</string>
+    <string name= "pass" >Pass</string>
 </resources>
